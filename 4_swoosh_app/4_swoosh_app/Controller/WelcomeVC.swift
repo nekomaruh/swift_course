@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class WelcomeVC: UIViewController {
     
     @IBOutlet var swoosh: UIImageView!
     @IBOutlet var bgImg: UIImageView!
@@ -16,6 +16,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+    }
+    
+    @IBAction func unwindFromSkillVC(unwindSegue: UIStoryboardSegue){
+        
     }
 
 
